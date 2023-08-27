@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: #FFFDF5; */
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw 8vw;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.351);
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    background-color: white;
+}
+
+
+#xmark{
+    display: none;
+}
+#ham{
+    display: none;
+}
+
+nav img{
+  width: 400px;
+  height: 100px;
+  cursor: pointer;
+  
+  
+}
+
+nav .navlinks ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    
+}
+
+nav .navlinks ul li{
+    margin-left: 30px;
+}
+nav .navlinks ul li a{
+    text-decoration: none;
+    color: rgb(21, 21, 100);
+    font-size: 18px;
+    transition: 0.3s ease-out;
+}
+
+nav .navlinks ul li a:hover{
+    color: green;
+}
+
+ .main{
+    max-width: 80%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 10%;
+    background-color: #FFFDF5;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about h1{
+    margin-top: 70px;
+    color: #1f3263;
+    font-family: 'Georgia';
+}
+
+.about h3{
+    margin-top: 40px;
+    font-family: 'Georgia';
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.about p{
+    margin-top: 25px;
+    font-family: 'Verdana';
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 20px;
+    /* text-align: center; */
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.msg{
+    display: flex;
+}
+
+.msg .prinimg img{
+    width: 25vw;
+    margin-top: 25vh;
+
+}
+
+.prinimg{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+
+.msg .prinimg h4{
+    font-family: 'Georgia';
+    color: #1f3263;
+    margin-top: 20px;
+}
+.msg .prinimg p{
+    font-family: 'Verdana';
+    font-size: 20px;
+}
+
+.msg .messeges{
+    margin-top: 25vh;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.msg .messeges h2{
+    font-family: 'Georgia';
+    color: #1f3263;
+    margin-bottom: 40px;
+}
+
+.msg .messeges p{
+    font-family: 'Verdana';
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 20px;
+    /* margin-top: 30px; */
+    text-align: justify;
+}
+
+.shcard{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.shcard img{
+    width: 286px;
+    height: 200px;
+    /* transition: 1s ease-out;
+    overflow: hidden; */
+}
+
+/* .shcard img:hover{
+    transform: scale(1.01);
+    overflow: hidden; */
+
+
+.shcard .card{
+    transition: 1s ease-out;
+}
+
+.shcard .card:hover{
+    transform:scale(1.03);
+
+}
+
+.shcard .card .card-body{
+    color: white;
+    background-color:#1f3263 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp h1{
+    color: #1f3263;
+    align-items: center;
+    text-align: center;
+    font-family: 'Georgina';
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EFE9DD;
+    margin-top: 15vh;
+}
+
+.vertical{
+    border-left: 1px solid black;
+    height: 200px;
+}
+
+.footer h4{
+    font-family: 'Georgina';
+}
+
+.footer p{
+    font-family: 'Verdana';
+}
+
+.footer .addr{
+    margin-left: 10vw;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+/* .footer .addr h4{
+    font-family: 'Georgina';
+} */
+
+.footer .mail{
+    margin-right: 10vw;
+}
+.footer hr{
+    display: none;
+}
+
+.about #topp{
+    margin-top: 160px;
+}
+
+.main #ab h2{
+    font-family: 'Georgia';
+    color: #1f3263;
+    /* margin-bottom: 40px; */
+    margin-left: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 40px;
+
+}
+
+.main #ab p{
+    margin-top: 25px;
+    font-family: 'Verdana';
+    color: rgba(0, 0, 0, 0.801);
+    font-size: 20px;
+    /* text-align: center; */
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 50px;
+    /* margin-bottom: 40px; */
+}
+
+
+#shhh{
+    margin-top: 40px;
+}
+
+
+.bigcard .card{
+    margin-right: 120px;
+    margin-left: 120px;
+    border-radius: 10px;
+}
+
+.bigcard .card img{
+    /* width: 65vw; */
+    height: 40vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bigcard .card .card-body{
+    color: white;
+    background-color:#1f3263 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.bigcard .card{
+    transition: 1s ease-out;
+}
+
+.bigcard .card:hover{
+    transform:scale(1.03);
+
+}
+
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.result .card img{
+    width: 100%;
+    height: 200px;
+}
+
+.result .card .card-body{
+    color: white;
+    background-color:#1f3263 ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result #adil img{
+    height: 176px;
+}
+
+
+.ct{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ct .ct1{
+    margin-left: 30px;
+}
+
+.ct .ct2 iframe{
+    height: 500px;
+    width: 450px;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+   
+    #ham{
+        display: initial;
+        position: absolute;
+        top: 60px;
+        /* right: 0; */
+        right: 40px;
+    }
+    
+    nav .navlinks ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        list-style: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 220px;
+        height: 100vh;
+        /* background-color: rgba(red, rgba(24, 137, 24, 0.792), blue, alpha); */
+        /* background: rgba(0, 128, 0, 0.603); */
+        backdrop-filter: blur(4.5px);
+        border: 1px solid gray;
+        /* margin-top: 60px; */
+        display: none;
+
+
+        
+    }
+
+    nav .navlinks ul li{
+        /* padding: 20px 0 20px 50px; */
+        margin-left: 0;
+        /* margin-top: 70px; */
+        padding-top: 70px;
+        /* display: none; */
+    }
+
+    nav{
+        padding: 15px 20px;
+    }
+    
+    .main{
+        max-width: 100%;
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        margin-left: 0%;
+        background-color:  #FFFDF5;
+    }
+
+    .shcard{
+
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        /* margin-top: 20px; */
+    
+    }
+
+    #cd{
+        margin-top: 20px;
+    }
+
+    .main.carousel{
+        width: 100vw;
+    } 
+
+    .about h1{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .msg .prinimg img{
+        margin-left: 20px;
+    }
+    .msg .prinimg h4{
+        margin-left: 30px;
+        text-align: center;
+    }
+
+    .msg .messeges h2{
+        text-align: center;
+    }
+
+    .footer{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #EFE9DD;
+        margin-top: 15vh;
+    }
+
+    
+    .footer .addr{
+        margin-left: 10px;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+        text-align: center;
+    }
+    
+    /* .footer .addr h4{
+        font-family: 'Georgina';
+    } */
+    
+    .footer .mail{
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .footer .con{
+        text-align: center;
+        margin: 10px
+    }
+
+    /* .footer p{
+        /* font-size: 16px; */
+
+    
+
+    
+
+    #v1{
+        display: none;
+    }
+    .footer hr{
+        display: none;
+    }
+
+    .result{
+        flex-wrap: wrap;
+    }
+
+    .result .card {
+        margin-top: 30px;
+    }
+
+    .ct{
+        flex-wrap: wrap;
+    }
+
+    .ct .ct2 iframe{
+        width: 100%;
+        margin-left: 30px;
+    }
+    
+}
+
+
+@media (max-width: 490px){
+
+    .footer{
+        height: 62vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #EFE9DD;
+        margin-top: 15vh;
+    }
+
+    .footer hr{
+        display: block;
+        margin-top: 40px;
+        
+    }
+    .footer .addr{
+        margin-top: 20px;
+    }
+
+    #cd1{
+        margin-top: 20px;
+    }
+
+    nav img{
+        width: 200px;
+        height: 50px;
+        cursor: pointer;
+        
+        
+      }
+
+      #ham{
+        display: initial;
+        position: absolute;
+        top: 35px;
+        /* right: 0; */
+        right: 40px;
+    }
+
+    .about p{
+       
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .msg{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .msg .prinimg img{
+        width: 350px;
+        border-radius: 8px;
+        margin-top: 10vh;
+    }
+    
+    .msg .messeges{
+        margin-top: 10vh;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+
+    .msg .messeges p{
+        font-family: 'Verdana';
+        color: rgba(0, 0, 0, 0.801);
+        font-size: 20px;
+        /* margin-top: 30px; */
+        text-align: justify;
+        
+    }
+
+    .main #ab h2{
+        text-align: center;
+        margin-right: 20px;
+    }
+
+    .bigcard .card{
+        width: 90%;
+        margin-right: 5px;
+        margin-left: 5px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+    .bigcard{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       flex-direction: column;
+    }
+
+    .bigcard .card .card-body p{
+        text-align: center;
+    }
+
+    .result .card .row #adil img{
+        height: 300px;
+    }
+
+    .result .card{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+}
